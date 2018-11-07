@@ -1,12 +1,13 @@
 .banner {
   color: white;
   text-align: center;
-  height: 100vh;
+  height: 50vh;
   /* if you have a 70px navbar => height: calc(100vh - 70px); */
   background-size: cover !important;
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
 }
 .banner h1 {
   font-size: 50px;
@@ -20,3 +21,31 @@
   opacity: 0.6;
   margin-bottom: 30px;
 }
+
+.typeform-helper {
+  position: absolute;
+  left: 150px;
+  bottom: 20px;
+  width: 300px;
+  filter: drop-shadow(2px 2px 1px #90c2e5);
+}
+
+.typeform-help {
+  position: absolute;
+  right: 150px;
+  bottom: 20px;
+  width: 300px;
+  filter: drop-shadow(2px 2px 1px #90c2e5);
+}
+
+.w-100 {
+  filter: blur(1.5px);
+  filter: brightness(60%);
+}
+
+.carousel-caption {
+  text-shadow: 3px 2px 2px grey;
+  
+}
+
+
