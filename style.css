@@ -1,21 +1,5 @@
 
 
-.banner {
-  color: white;
-  text-align: center;
-  height: 50vh;
-  /* if you have a 70px navbar => height: calc(100vh - 70px); */
-  background-size: cover !important;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  background-color: #6a7682;
-}
-
-h3 {
-  font-family:Helvetica,Arial,sans-serif;
-}
 
 p {
   font-family:Helvetica,Arial,sans-serif;
@@ -29,6 +13,68 @@ h1 {
   font-family:Helvetica,Arial,sans-serif;
 }
 
+h2 {
+  text-align: justify;
+  margin-right: 360px;
+  margin-left: 360px;
+  font-size: 17px;
+  font-family:Helvetica,Arial,sans-serif;
+}
+
+h3 {
+  font-family:Helvetica,Arial,sans-serif;
+}
+
+
+
+
+
+
+
+
+.login {
+  margin-right: 50px;
+  font-family:Helvetica,Arial,sans-serif;
+}
+
+.btn {
+  margin-right: 30px;
+  font-family:Helvetica,Arial,sans-serif;
+}
+
+.collapse {
+  margin-left: 75px;
+}
+
+.nav-link {
+  margin-left: 30px;
+  font-family:Helvetica,Arial,sans-serif;
+}
+
+.navbar-brand {
+  font-family:Helvetica,Arial,sans-serif;
+}
+
+
+
+
+
+
+
+
+.banner {
+  color: white;
+  text-align: center;
+  height: 50vh;
+  /* if you have a 70px navbar => height: calc(100vh - 70px); */
+  background-size: cover !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background-color: #6a7682;
+}
+
 .data-analyst {
   width: 170px;
   height: 170px;
@@ -40,7 +86,7 @@ h1 {
 
 .company {
  width: 130px;
- height: 130px;
+ height: 150px;
  position: absolute;
  display: flex;
  right: 110px;
@@ -75,14 +121,6 @@ h1 {
   text-align: right;
 }
 
-h2 {
-  text-align: justify;
-  margin-right: 360px;
-  margin-left: 360px;
-  font-size: 17px;
-  font-family:Helvetica,Arial,sans-serif;
-}
-
 .navbar-brand-img {
   width: 50px;
   height: 50px;
@@ -104,6 +142,13 @@ h2 {
   filter: drop-shadow(2px 2px 1px #90c2e5);
 }
 
+
+
+
+
+
+
+
 .w-100 {
   filter: brightness(60%);
   border-radius: 5px;
@@ -115,25 +160,3 @@ h2 {
 }
 
 
-.login {
-  margin-right: 50px;
-  font-family:Helvetica,Arial,sans-serif;
-}
-
-.btn {
-  margin-right: 30px;
-  font-family:Helvetica,Arial,sans-serif;
-}
-
-.collapse {
-  margin-left: 75px;
-}
-
-.nav-link {
-  margin-left: 30px;
-  font-family:Helvetica,Arial,sans-serif;
-}
-
-.navbar-brand {
-  font-family:Helvetica,Arial,sans-serif;
-}
