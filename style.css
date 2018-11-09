@@ -79,7 +79,7 @@ h4 {
   align-items: center;
   justify-content: center;
   position: relative;
-  background-color: #6a7682;
+  background-color: #beccdb;
 }
 
 .data-analyst {
@@ -119,6 +119,7 @@ h4 {
   width: 200px;
   left: 350px;
   top: 100px;
+  filter: drop-shadow(2px 2px 1px black);
 }
 
 .idea {
@@ -126,6 +127,7 @@ h4 {
   width: 300px;
   left: 590px;
   top: 150px;
+  filter: drop-shadow(1px 1px 1px black);
 }
 
 .navbar-brand-img {
@@ -156,24 +158,39 @@ h4 {
   position: relative;
 }
 
-.pourcentage {
+.pourcentage1 {
   color: #45F1A7;
   font-weight: bold;
   font-size: 60px;
   font-family:Helvetica,Arial,sans-serif;
   position: absolute;
-  top: 20px;
+  top: 40px;
   left: 50px;
 
 }
 
-.sentence {
-  margin-left: 180px;
+.sentence1 {
+  margin-left: 190px;
   width: 400px;
   margin-top: 55px;
 }
 
+.pourcentage2 {
+  color: #45F1A7;
+  font-weight: bold;
+  font-size: 60px;
+  font-family:Helvetica,Arial,sans-serif;
+  position: absolute;
+  top: 167px;
+  right: 43%;
+}
 
+.sentence2 {
+  text-align: left;
+  margin-left: 750px;
+  width: 400px;
+  margin-top: 55px;
+}
 
 
 
