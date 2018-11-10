@@ -310,7 +310,7 @@ h4 {
   }
 
   .navbar {
-    width: 53.5%;
+    width: auto;
   }
 
   .login {
@@ -338,7 +338,7 @@ h4 {
   .banner {
     color: white;
     text-align: center;
-    height: 60vh;
+    height: 65vh;
     /* if you have a 70px navbar => height: calc(100vh - 70px); */
     background-size: cover !important;
     display: flex;
