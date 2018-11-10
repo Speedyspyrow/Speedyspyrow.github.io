@@ -532,7 +532,258 @@ h4 {
 }
 
 
+@media (max-width: 375px) {
 
+    p {
+    font-family:Helvetica,Arial,sans-serif;
+  }
+
+  h1 {
+    text-align: justify;
+    margin-right: 360px;
+    margin-left: 360px;
+    font-size: 15px;
+    font-family:Helvetica,Arial,sans-serif;
+  }
+
+  h2 {
+    text-align: justify;
+    margin-right: 360px;
+    margin-left: 360px;
+    font-size: 17px;
+    font-family:Helvetica,Arial,sans-serif;
+  }
+
+  h4 {
+    font-family:Helvetica,Arial,sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin: auto;
+    padding: 0px 7px 0px 7px;
+    font-weight: bold;
+  }
+
+  .navbar {
+    width: auto;
+  }
+
+  .login {
+    font-family:Helvetica,Arial,sans-serif;
+  }
+
+  .btn {
+    font-family:Helvetica,Arial,sans-serif;
+  }
+
+  .collapse {
+  }
+
+  .nav-link {
+    font-family:Helvetica,Arial,sans-serif;
+  }
+
+  .navbar-brand {
+    font-family:Helvetica,Arial,sans-serif;
+  }
+
+
+
+
+  .banner {
+    color: white;
+    text-align: center;
+    height: 65vh;
+    /* if you have a 70px navbar => height: calc(100vh - 70px); */
+    background-size: cover !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: #beccdb;
+  }
+
+  .data-analyst {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    display: flex;
+    left: 90px;
+    bottom: 90px;
+  }
+
+  .company {
+   width: 50px;
+   height: 60px;
+   position: absolute;
+   display: flex;
+   right: 90px;
+   bottom: 95px;
+  }
+
+  .quote {
+    font-style: italic;
+    font-size: 7px;
+    text-align: justify;
+    margin-top: 37%;
+    width: 300px;
+  }
+
+  .dan-ariely {
+    font-weight: bold;
+    font-size: 7px;
+    text-align: right;
+    margin-top: -13px;
+  }
+
+  .logo-data {
+    position: absolute;
+    width: 150px;
+    left: 120px;
+    top: 70px;
+    filter: drop-shadow(2px 2px 1px black);
+  }
+
+  .idea {
+    position: absolute;
+    width: 250px;
+    left: 70px;
+    top: 190px;
+    filter: drop-shadow(1px 1px 1px black);
+  }
+
+  .navbar-brand-img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .typeform-helper {
+    position: absolute;
+    left: 60px;
+    bottom: 60px;
+    width: 100px;
+    filter: drop-shadow(2px 2px 1px #90c2e5);
+    display:inline-block;
+    text-decoration:none;
+    background-color:#45F1A7;
+    color:#343a40;
+    cursor:pointer;
+    font-family:Helvetica,Arial,sans-serif;
+    font-size:7px;
+    line-height:25px;
+    text-align:center;
+    margin:0;
+    height:25px;
+    padding:0px 0px;
+    border-radius:5px;
+    max-width:100%;white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    font-weight:bold;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
+  }
+
+  .typeform-help {
+    position: absolute;
+    right: 60px;
+    bottom: 60px;
+    width: 100px;
+    filter: drop-shadow(2px 2px 1px #90c2e5);
+    display:inline-block;
+    text-decoration:none;
+    background-color:#45F0A7;
+    color:#343a40;cursor:pointer;
+    font-family:Helvetica,Arial,sans-serif;
+    font-size:7px;
+    line-height:25px;
+    text-align:center;
+    margin:0;
+    height:25px;
+    padding:0px 0px;
+    border-radius:5px;
+    max-width:100%;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    font-weight:bold;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
+  }
+
+
+
+
+  .information {
+    position: relative;
+  }
+
+  .pourcentage1 {
+    color: #45F1A7;
+    font-weight: bold;
+    font-size: 30px;
+    font-family:Helvetica,Arial,sans-serif;
+    position: absolute;
+    top: 40px;
+    left: 30px;
+
+  }
+
+  .sentence1 {
+    margin-left: 100px;
+    width: 250px;
+    margin-top: 55px;
+  }
+
+  .pourcentage2 {
+    color: #45F1A7;
+    font-weight: bold;
+    font-size: 30px;
+    font-family:Helvetica,Arial,sans-serif;
+    position: absolute;
+    top: 157px;
+    left: 30px;
+  }
+
+  .sentence2 {
+    margin-left: 100px;
+    width: 250px;
+    margin-top: 45px;
+  }
+
+
+
+
+
+  .container {
+    padding-left: 100px;
+    background-color: white;
+  }
+
+  .card {
+    width: 200px;
+    height: 100px;
+    text-align: justify;
+    color: white;
+    margin-left: -75px;
+    margin-bottom: 50px;
+    margin-top: 0px;
+    position: relative;
+    background-color: #8d969f;
+  }
+
+
+  .img-logo {
+    width: 100px;
+    height: 100px;
+  }
+
+  .cardimg {
+    position: absolute;
+    left: 115%;
+  }
+
+
+}
 
 
 
