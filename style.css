@@ -1,967 +1,158 @@
 
-body {
-  background-color: #ffffff;
+/*Bannière navbar*/
+
+.navbar {
+	background-color: #e3f2fd;
 }
 
-p {
-  font-family:Helvetica,Arial,sans-serif;
+.navbar-nav {
+	margin-left: 5%;
 }
 
-h1 {
-  text-align: justify;
-  margin-right: 360px;
-  margin-left: 360px;
-  font-size: 20px;
-  font-family:Helvetica,Arial,sans-serif;
+.home-white {
+	filter: drop-shadow(2px 2px 1px grey);
+	width:35px;
+	margin-left: 30px;
+	
 }
 
-h2 {
-  text-align: justify;
-  margin-right: 360px;
-  margin-left: 360px;
-  font-size: 17px;
-  font-family:Helvetica,Arial,sans-serif;
+.nav-item {
+	margin-left: 50px;
+	font-family: 'Pacifico', cursive;
+	font-size: 20px;
 }
 
-h4 {
-  font-family:Helvetica,Arial,sans-serif;
-  font-size: 20px;
-  text-align: center;
-  margin: auto;
-  padding: 0px 7px 0px 7px;
-  font-weight: bold;
-}
+.navbar-text {
 
-
-
-
-
-
-
-
-.login {
-  margin-right: 50px;
-  font-family:Helvetica,Arial,sans-serif;
 }
 
 .btn {
-  margin-right: 30px;
-  font-family:Helvetica,Arial,sans-serif;
+	font-family: 'Pacifico', cursive;
+	font-size: 20px;
 }
 
-.collapse {
-  margin-left: 75px;
+/*Bannière image*/
+
+.firstblock{
+	background-image: url("images/wave.png");
+	background-size: cover;
+	height: 610px;
 }
 
-.nav-link {
-  margin-left: 30px;
-  font-family:Helvetica,Arial,sans-serif;
+#container1{
+	position: relative;
 }
 
-.navbar-brand {
-  font-family:Helvetica,Arial,sans-serif;
+.qrlinkedin{
+	width: 20%;
+	position: absolute;
+	top: 72%;
+	left: 10%;
 }
 
-
-
-
-
-
-
-
-.banner {
-  color: white;
-  text-align: center;
-  height: 53vh;
-  /* if you have a 70px navbar => height: calc(100vh - 70px); */
-  background-size: cover !important;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  background-color: #beccdb;
+.imagemoi{
+	margin-top: 80px;
 }
 
-.data-analyst {
-  width: 170px;
-  height: 170px;
-  position: absolute;
-  display: flex;
-  left: 110px;
-  bottom: 70px;
+.moi{
+	width: 300px;
+	filter: drop-shadow(2px 2px 5px);
+	margin-top: 20%;
 }
 
-.company {
- width: 130px;
- height: 150px;
- position: absolute;
- display: flex;
- right: 110px;
- bottom: 75px;
+@media only screen and (max-width: 800px) {
+	.moi{
+		width: 200px;
+		filter: drop-shadow(2px 2px 5px);
+		margin-top: 20%;
+	}
 }
 
-.quote {
-  font-style: italic;
-  font-size: 13.5px;
-  text-align: justify;
-  margin-top: 270px;
+@media only screen and (max-width: 570px) {
+	.moi{
+		width: 130px;
+		filter: drop-shadow(2px 2px 5px);
+		position: absolute;
+		top: -50%;
+		margin-right: auto;
+		margin-left: auto;
+		left: 0%;
+		right: 0%;
+	}
 }
 
-.dan-ariely {
-  font-weight: bold;
-  font-size: 13px;
-  text-align: right;
-  margin-top: -24px;
+.title1{
+	margin-top: 25%;
 }
 
-.logo-data {
-  position: absolute;
-  width: 200px;
-  left: 350px;
-  top: 100px;
-  filter: drop-shadow(2px 2px 1px black);
+.kedge{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	width: 300px;
+	filter: drop-shadow(3px 2px 1px white);
 }
 
-.idea {
-  position: absolute;
-  width: 300px;
-  left: 590px;
-  top: 150px;
-  filter: drop-shadow(1px 1px 1px black);
-}
-
-.navbar-brand-img {
-  width: 50px;
-  height: 50px;
-}
-
-.typeform-helper {
-  position: absolute;
-  left: 20px;
-  bottom: 20px;
-  width: 300px;
-  filter: drop-shadow(2px 2px 1px #90c2e5);
-  display:inline-block;
-  text-decoration:none;
-  background-color:#45F1A7;
-  color:#343a40;
-  cursor:pointer;
-  font-family:Helvetica,Arial,sans-serif;
-  font-size:20px;
-  line-height:50px;
-  text-align:center;
-  margin:0;
-  height:50px;
-  padding:0px 33px;
-  border-radius:5px;
-  max-width:100%;white-space:nowrap;
-  overflow:hidden;
-  text-overflow:ellipsis;
-  font-weight:bold;
-  -webkit-font-smoothing:antialiased;
-  -moz-osx-font-smoothing:grayscale;
-}
-
-.typeform-help {
-  position: absolute;
-  right: 20px;
-  bottom: 20px;
-  width: 300px;
-  filter: drop-shadow(2px 2px 1px #90c2e5);
-  display:inline-block;
-  text-decoration:none;
-  background-color:#45F0A7;
-  color:#343a40;cursor:pointer;
-  font-family:Helvetica,Arial,sans-serif;
-  font-size:20px;
-  line-height:50px;
-  text-align:center;
-  margin:0;height:50px;
-  padding:0px 33px;
-  border-radius:5px;
-  max-width:100%;
-  white-space:nowrap;
-  overflow:hidden;
-  text-overflow:ellipsis;
-  font-weight:bold;
-  -webkit-font-smoothing:antialiased;
-  -moz-osx-font-smoothing:grayscale;
+h1 {
+	font-family: bebas neue;
+	text-align: center;
+	color: white;
+	filter: drop-shadow(2px 2px 1px black);
+	font-size: 50px;
 }
 
 
+/*Espace expériences pro*/
 
-
-.information {
-  position: relative;
+#spacebeforecontainer2{
+	height: 76px;
 }
 
-.pourcentage1 {
-  color: #45F1A7;
-  font-weight: bold;
-  font-size: 60px;
-  font-family:Helvetica,Arial,sans-serif;
-  position: absolute;
-  top: 40px;
-  left: 50px;
-
+#container2{
+	margin-top: 50px;
 }
 
-.sentence1 {
-  margin-left: 190px;
-  width: 400px;
-  margin-top: 55px;
+/*Espace hobbies avec carousel*/
+
+#spacebeforebdexample{
+	height: 76px;
 }
 
-.pourcentage2 {
-  color: #45F1A7;
-  font-weight: bold;
-  font-size: 60px;
-  font-family:Helvetica,Arial,sans-serif;
-  position: absolute;
-  top: 167px;
-  right: 43%;
+#bd-example{
+	margin-top: 18px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
 }
 
-.sentence2 {
-  text-align: left;
-  margin-left: 750px;
-  width: 400px;
-  margin-top: 55px;
+.d-block{
+	width: 100px;
+	height: 500px;
+	opacity: 0.5;
+	filter: blur(0.5px);
 }
 
-
-
-.w-100 {
-  filter: brightness(60%);
-  border-radius: 5px;
+h5{
+	text-shadow: 2px 2px black;
+	font-size: 50px;
 }
 
-.carousel-caption {
-  text-shadow: 2px 2px 10px black;
-  
+.card-img{
+	margin-top: 50px;
+	max-width: 50%;
+	height: auto;
+	margin-left:75px;
 }
 
-
-
-
-
-
-
-.container {
-  padding-left: 100px;
-  background-color: white;
+.card{
+	max-width: 100%;
+	border-radius: 2px;
 }
 
-.card {
-  width: 200px;
-  height: 200px;
-  text-align: justify;
-  color: white;
-  margin-bottom: 50px;
-  margin-top: 50px;
-  position: relative;
-  background-color: #8d969f;
-}
-
-
-.img-logo {
-  width: 100px;
-  height: 100px;
-}
-
-.cardimg {
-  position: absolute;
-  top: 25%;
-  left: 130%;
-}
-
-
-
-
-
-.footer-distributed{
-  background-color: #292c2f;
-  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
-  box-sizing: border-box;
-  width: 100%;
-  text-align: left;
-  font: bold 16px sans-serif;
-
-  padding: 55px 50px;
-  margin-top: 80px;
-}
-
-.footer-distributed .footer-left,
-.footer-distributed .footer-center,
-.footer-distributed .footer-right{
-  display: inline-block;
-  vertical-align: top;
-}
-
-/* Footer left */
-
-.footer-distributed .footer-left{
-  width: 40%;
-}
-
-/* The company logo */
-
-.footer-distributed h3{
-  color:  #ffffff;
-  font: normal 36px 'Cookie', cursive;
-  margin: 0;
-}
-
-.footer-distributed h3 span{
-  color:  #5383d3;
-}
-
-/* Footer links */
-
-.footer-distributed .footer-links{
-  color:  #ffffff;
-  margin: 20px 0 12px;
-  padding: 0;
-}
-
-.footer-distributed .footer-links a{
-  display:inline-block;
-  line-height: 1.8;
-  text-decoration: none;
-  color:  inherit;
-}
-
-.footer-distributed .footer-company-name{
-  color:  #8f9296;
-  font-size: 14px;
-  font-weight: normal;
-  margin: 0;
-}
-
-/* Footer Center */
-
-.footer-distributed .footer-center{
-  width: 35%;
-}
-
-.footer-distributed .footer-center i{
-  background-color:  #33383b;
-  color: #ffffff;
-  font-size: 25px;
-  width: 38px;
-  height: 38px;
-  border-radius: 50%;
-  text-align: center;
-  line-height: 42px;
-  margin: 10px 15px;
-  vertical-align: middle;
-}
-
-.footer-distributed .footer-center i.fa-envelope{
-  font-size: 17px;
-  line-height: 38px;
-}
-
-.footer-distributed .footer-center p{
-  display: inline-block;
-  color: #ffffff;
-  vertical-align: middle;
-  margin:0;
-}
-
-.footer-distributed .footer-center p span{
-  display:block;
-  font-weight: normal;
-  font-size:14px;
-  line-height:2;
-}
-
-.footer-distributed .footer-center p a{
-  color:  #5383d3;
-  text-decoration: none;;
-}
-
-
-/* Footer Right */
-
-.footer-distributed .footer-right{
-  width: 20%;
-}
-
-.footer-distributed .footer-company-about{
-  line-height: 20px;
-  color:  #92999f;
-  font-size: 13px;
-  font-weight: normal;
-  margin: 0;
-}
-
-.footer-distributed .footer-company-about span{
-  display: block;
-  color:  #ffffff;
-  font-size: 14px;
-  font-weight: bold;
-  margin-bottom: 20px;
-}
-
-.footer-distributed .footer-icons{
-  margin-top: 25px;
-}
-
-.footer-distributed .footer-icons a{
-  display: inline-block;
-  width: 35px;
-  height: 35px;
-  cursor: pointer;
-  background-color:  #33383b;
-  border-radius: 2px;
-
-  font-size: 20px;
-  color: #ffffff;
-  text-align: center;
-  line-height: 35px;
-
-  margin-right: 3px;
-  margin-bottom: 5px;
-}
-
-.networking-icones {
-  width: 35px;
-}
-
-.footer-link {
-  margin-top: 60px;
-}
-
-/* If you don't want the footer to be responsive, remove these media queries */
-
-@media (max-width: 880px) {
-
-  .footer-distributed{
-    font: bold 14px sans-serif;
-  }
-
-  .footer-distributed .footer-left,
-  .footer-distributed .footer-center,
-  .footer-distributed .footer-right{
-    display: block;
-    width: 100%;
-    margin-bottom: 40px;
-    text-align: center;
-  }
-
-  .footer-distributed .footer-center i{
-    margin-left: 0;
-  }
-
-}
-
-
-
-@media (max-width: 480px) {
-
-    p {
-    font-family:Helvetica,Arial,sans-serif;
-  }
-
-  h1 {
-    text-align: justify;
-    margin-right: 360px;
-    margin-left: 360px;
-    font-size: 15px;
-    font-family:Helvetica,Arial,sans-serif;
-  }
-
-  h2 {
-    text-align: justify;
-    margin-right: 360px;
-    margin-left: 360px;
-    font-size: 17px;
-    font-family:Helvetica,Arial,sans-serif;
-  }
-
-  h4 {
-    font-family:Helvetica,Arial,sans-serif;
-    font-size: 20px;
-    text-align: center;
-    margin: auto;
-    padding: 0px 7px 0px 7px;
-    font-weight: bold;
-  }
-
-  .navbar {
-    width: auto;
-  }
-
-  .login {
-    font-family:Helvetica,Arial,sans-serif;
-  }
-
-  .btn {
-    font-family:Helvetica,Arial,sans-serif;
-  }
-
-  .collapse {
-  }
-
-  .nav-link {
-    font-family:Helvetica,Arial,sans-serif;
-  }
-
-  .navbar-brand {
-    font-family:Helvetica,Arial,sans-serif;
-  }
-
-
-
-
-  .banner {
-    color: white;
-    text-align: center;
-    height: 65vh;
-    /* if you have a 70px navbar => height: calc(100vh - 70px); */
-    background-size: cover !important;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    background-color: #beccdb;
-  }
-
-  .data-analyst {
-    width: 70px;
-    height: 70px;
-    position: absolute;
-    display: flex;
-    left: 90px;
-    bottom: 70px;
-  }
-
-  .company {
-   width: 50px;
-   height: 60px;
-   position: absolute;
-   display: flex;
-   right: 90px;
-   bottom: 75px;
-  }
-
-  .quote {
-    font-style: italic;
-    font-size: 7px;
-    text-align: justify;
-    margin-top: 37%;
-    width: 300px;
-  }
-
-  .dan-ariely {
-    font-weight: bold;
-    font-size: 7px;
-    text-align: right;
-    margin-top: -13px;
-  }
-
-  .logo-data {
-    position: absolute;
-    width: 150px;
-    left: 120px;
-    top: 70px;
-    filter: drop-shadow(2px 2px 1px black);
-  }
-
-  .idea {
-    position: absolute;
-    width: 250px;
-    left: 70px;
-    top: 190px;
-    filter: drop-shadow(1px 1px 1px black);
-  }
-
-  .navbar-brand-img {
-    width: 50px;
-    height: 50px;
-  }
-
-  .typeform-helper {
-    position: absolute;
-    left: 60px;
-    bottom: 40px;
-    width: 100px;
-    filter: drop-shadow(2px 2px 1px #90c2e5);
-    display:inline-block;
-    text-decoration:none;
-    background-color:#45F1A7;
-    color:#343a40;
-    cursor:pointer;
-    font-family:Helvetica,Arial,sans-serif;
-    font-size:7px;
-    line-height:25px;
-    text-align:center;
-    margin:0;
-    height:25px;
-    padding:0px 0px;
-    border-radius:5px;
-    max-width:100%;white-space:nowrap;
-    overflow:hidden;
-    text-overflow:ellipsis;
-    font-weight:bold;
-    -webkit-font-smoothing:antialiased;
-    -moz-osx-font-smoothing:grayscale;
-  }
-
-  .typeform-help {
-    position: absolute;
-    right: 60px;
-    bottom: 40px;
-    width: 100px;
-    filter: drop-shadow(2px 2px 1px #90c2e5);
-    display:inline-block;
-    text-decoration:none;
-    background-color:#45F0A7;
-    color:#343a40;cursor:pointer;
-    font-family:Helvetica,Arial,sans-serif;
-    font-size:7px;
-    line-height:25px;
-    text-align:center;
-    margin:0;
-    height:25px;
-    padding:0px 0px;
-    border-radius:5px;
-    max-width:100%;
-    white-space:nowrap;
-    overflow:hidden;
-    text-overflow:ellipsis;
-    font-weight:bold;
-    -webkit-font-smoothing:antialiased;
-    -moz-osx-font-smoothing:grayscale;
-  }
-
-
-
-
-  .information {
-    position: relative;
-  }
-
-  .pourcentage1 {
-    color: #45F1A7;
-    font-weight: bold;
-    font-size: 30px;
-    font-family:Helvetica,Arial,sans-serif;
-    position: absolute;
-    top: 40px;
-    left: 30px;
-
-  }
-
-  .sentence1 {
-    margin-left: 100px;
-    width: 250px;
-    margin-top: 55px;
-  }
-
-  .pourcentage2 {
-    color: #45F1A7;
-    font-weight: bold;
-    font-size: 30px;
-    font-family:Helvetica,Arial,sans-serif;
-    position: absolute;
-    top: 157px;
-    left: 30px;
-  }
-
-  .sentence2 {
-    margin-left: 100px;
-    width: 250px;
-    margin-top: 45px;
-  }
-
-
-
-
-
-  .container {
-    padding-left: 100px;
-    background-color: white;
-  }
-
-  .card {
-    width: 200px;
-    height: 100px;
-    text-align: justify;
-    color: white;
-    margin-left: -75px;
-    margin-bottom: 50px;
-    margin-top: 0px;
-    position: relative;
-    background-color: #8d969f;
-  }
-
-
-  .img-logo {
-    width: 100px;
-    height: 100px;
-  }
-
-  .cardimg {
-    position: absolute;
-    left: 115%;
-  }
-
-
-}
-
-
-@media (max-width: 375px) {
-
-    p {
-    font-family:Helvetica,Arial,sans-serif;
-  }
-
-  h1 {
-    text-align: justify;
-    margin-right: 360px;
-    margin-left: 360px;
-    font-size: 15px;
-    font-family:Helvetica,Arial,sans-serif;
-  }
-
-  h2 {
-    text-align: justify;
-    margin-right: 360px;
-    margin-left: 360px;
-    font-size: 17px;
-    font-family:Helvetica,Arial,sans-serif;
-  }
-
-  h4 {
-    font-family:Helvetica,Arial,sans-serif;
-    font-size: 20px;
-    text-align: center;
-    margin: auto;
-    padding: 0px 7px 0px 7px;
-    font-weight: bold;
-  }
-
-  .navbar {
-    width: auto;
-  }
-
-  .login {
-    font-family:Helvetica,Arial,sans-serif;
-  }
-
-  .btn {
-    font-family:Helvetica,Arial,sans-serif;
-  }
-
-  .collapse {
-  }
-
-  .nav-link {
-    font-family:Helvetica,Arial,sans-serif;
-  }
-
-  .navbar-brand {
-    font-family:Helvetica,Arial,sans-serif;
-  }
-
-
-
-
-  .banner {
-    color: white;
-    text-align: center;
-    height: 65vh;
-    /* if you have a 70px navbar => height: calc(100vh - 70px); */
-    background-size: cover !important;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    background-color: #beccdb;
-  }
-
-  .data-analyst {
-    width: 70px;
-    height: 70px;
-    position: absolute;
-    display: flex;
-    left: 90px;
-    bottom: 90px;
-  }
-
-  .company {
-   width: 50px;
-   height: 60px;
-   position: absolute;
-   display: flex;
-   right: 90px;
-   bottom: 95px;
-  }
-
-  .quote {
-    font-style: italic;
-    font-size: 7px;
-    text-align: justify;
-    margin-top: 37%;
-    width: 300px;
-  }
-
-  .dan-ariely {
-    font-weight: bold;
-    font-size: 7px;
-    text-align: right;
-    margin-top: -13px;
-  }
-
-  .logo-data {
-    position: absolute;
-    width: 150px;
-    left: 120px;
-    top: 70px;
-    filter: drop-shadow(2px 2px 1px black);
-  }
-
-  .idea {
-    position: absolute;
-    width: 250px;
-    left: 70px;
-    top: 190px;
-    filter: drop-shadow(1px 1px 1px black);
-  }
-
-  .navbar-brand-img {
-    width: 50px;
-    height: 50px;
-  }
-
-  .typeform-helper {
-    position: absolute;
-    left: 60px;
-    bottom: 60px;
-    width: 100px;
-    filter: drop-shadow(2px 2px 1px #90c2e5);
-    display:inline-block;
-    text-decoration:none;
-    background-color:#45F1A7;
-    color:#343a40;
-    cursor:pointer;
-    font-family:Helvetica,Arial,sans-serif;
-    font-size:7px;
-    line-height:25px;
-    text-align:center;
-    margin:0;
-    height:25px;
-    padding:0px 0px;
-    border-radius:5px;
-    max-width:100%;white-space:nowrap;
-    overflow:hidden;
-    text-overflow:ellipsis;
-    font-weight:bold;
-    -webkit-font-smoothing:antialiased;
-    -moz-osx-font-smoothing:grayscale;
-  }
-
-  .typeform-help {
-    position: absolute;
-    right: 60px;
-    bottom: 60px;
-    width: 100px;
-    filter: drop-shadow(2px 2px 1px #90c2e5);
-    display:inline-block;
-    text-decoration:none;
-    background-color:#45F0A7;
-    color:#343a40;cursor:pointer;
-    font-family:Helvetica,Arial,sans-serif;
-    font-size:7px;
-    line-height:25px;
-    text-align:center;
-    margin:0;
-    height:25px;
-    padding:0px 0px;
-    border-radius:5px;
-    max-width:100%;
-    white-space:nowrap;
-    overflow:hidden;
-    text-overflow:ellipsis;
-    font-weight:bold;
-    -webkit-font-smoothing:antialiased;
-    -moz-osx-font-smoothing:grayscale;
-  }
-
-
-
-
-  .information {
-    position: relative;
-  }
-
-  .pourcentage1 {
-    color: #45F1A7;
-    font-weight: bold;
-    font-size: 30px;
-    font-family:Helvetica,Arial,sans-serif;
-    position: absolute;
-    top: 40px;
-    left: 30px;
-
-  }
-
-  .sentence1 {
-    margin-left: 100px;
-    width: 250px;
-    margin-top: 55px;
-  }
-
-  .pourcentage2 {
-    color: #45F1A7;
-    font-weight: bold;
-    font-size: 30px;
-    font-family:Helvetica,Arial,sans-serif;
-    position: absolute;
-    top: 157px;
-    left: 30px;
-  }
-
-  .sentence2 {
-    margin-left: 100px;
-    width: 250px;
-    margin-top: 45px;
-  }
-
-
-
-
-
-  .container {
-    padding-left: 100px;
-    background-color: white;
-  }
-
-  .card {
-    width: 200px;
-    height: 100px;
-    text-align: justify;
-    color: white;
-    margin-left: -75px;
-    margin-bottom: 50px;
-    margin-top: 0px;
-    position: relative;
-    background-color: #8d969f;
-  }
-
-
-  .img-logo {
-    width: 100px;
-    height: 100px;
-  }
-
-  .cardimg {
-    position: absolute;
-    left: 115%;
-  }
-
-
+.footer {
+	background-color: grey;
+	margin-top: 100px;
+	height: 100px;
 }
 
