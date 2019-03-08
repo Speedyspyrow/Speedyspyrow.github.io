@@ -156,14 +156,75 @@ h2{
 	display: block;
 	margin-right: auto;
 	margin-left: auto;
-	color: black;
-	font-size: 30px;
+	color: white;
+	font-size: 40px;
+	filter: drop-shadow(1px 1px 1px black);
+
  }
 
  .card{
  	text-decoration: none;
  }
 
+ #accordion{
+ 	width: 190px;
+ 	margin-right: auto;
+ 	margin-left: auto;
+ }
+
+
+
+.accordionfrench{
+	margin-top: 50px;
+}
+
+.accordionenglish{
+	margin-top: 50px;
+}
+
+.accordionspanish{
+	margin-top: 50px;
+}
+
+.accordionromanian{
+	margin-top: 50px;
+}
+
+#cardheaderfrench{
+	background-image: url("images/French flag.png");
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    filter: opacity(90%);
+}
+
+#cardheaderenglish{
+	background-image: url("images/English flag.png");
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    filter: opacity(90%);
+}
+
+#cardheaderspanish{
+	background-image: url("images/Spanish flag.png");
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    filter: opacity(90%);
+}
+
+#cardheaderromanian{
+	background-image: url("images/Romanian flag.png");
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    filter: opacity(90%);
+}
 
 /*Espace hobbies avec carousel*/
 
