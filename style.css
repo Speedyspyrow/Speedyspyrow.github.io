@@ -26,7 +26,7 @@
 
 }
 
-.btn {
+#boutonmail{
 	font-family: 'Pacifico', cursive;
 	font-size: 20px;
 }
@@ -150,6 +150,19 @@ h2{
 #spacebeforelanguages{
 	height: 76px;
 }
+
+.btn{
+ 	font-family: bebas neue;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	color: black;
+	font-size: 30px;
+ }
+
+ .card{
+ 	text-decoration: none;
+ }
 
 
 /*Espace hobbies avec carousel*/
