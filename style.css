@@ -105,17 +105,9 @@ h1 {
 
 /*Espace expériences pro*/
 
-#spacebeforecontainer2{
-	height: 76px;
-}
-
-#container2{
-	margin-top: 50px;
-}
-
 h2{
 	font-family: bebas neue;
-	text-align: center;
+	margin-left: 35px;
 	margin-top: 5px;
 	font-size: 50px;
 	color: white;
@@ -124,11 +116,42 @@ h2{
 
 .sectiontitle{
 	margin-right: auto;
-	margin-left: auto;
-	width: 600px;
+	width: 300px;
 	border-radius: 10px;
 	background-color: #f3f8ff;
 }
+
+#spacebeforeexperiences{
+	height: 76px;
+}
+
+
+
+.card{
+	height: auto;
+}
+
+/*Espace formation*/
+
+#spacebeforeformation{
+	height: 76px;
+}
+
+
+/*Espace skills*/
+
+#spacebeforeskills{
+	height: 76px;
+}
+
+
+/*Espace languages*/
+
+#spacebeforelanguages{
+	height: 76px;
+}
+
+
 
 /*Espace hobbies avec carousel*/
 
@@ -157,7 +180,7 @@ h5{
 
 .card-img{
 	margin-top: 50px;
-	max-width: 50%;
+	max-width: 40%;
 	height: auto;
 	margin-left:75px;
 }
