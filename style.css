@@ -144,6 +144,41 @@ h2{
 	height: 76px;
 }
 
+#containerskills{
+	margin-top: 50px;
+}
+
+#btnsoftskills{
+	width: 150px;
+	height: 50px;
+	font-size: 30px;
+	font-family: bebas neue;
+}
+
+#btnhardskills{
+	width: 150px;
+	height: 50px;
+	font-size: 30px;
+	font-family: bebas neue;
+}
+
+.teamplayer{
+	width: 50px;
+	margin-top: 50px;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+.teamplayertext{
+	float: left;
+	font-family: bebas neue;
+	font-size: 30px;
+}
+
+.textskills{
+	line-height: 160px;
+}
+
 
 /*Espace languages*/
 

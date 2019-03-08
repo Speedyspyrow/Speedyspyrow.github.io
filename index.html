@@ -8,6 +8,9 @@
     <meta property=“og:description” content=“Le Wagon is the...”>
 
     <meta charset="utf-8">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="java.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
@@ -213,11 +216,20 @@
         <div class="row">
           
           <div class="col-sm-6">
-            <button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">Soft Skills</button>
+        
+            <button type="button" class="btn btn-primary" id="btnhardskills" data-toggle="button" aria-pressed="false" autocomplete="off">Soft Skills</button>
+
+            <div class="teamskills">
+              <p class="teamplayertext">
+                <img src="images/teamplayer.png" class="teamplayer" alt="Nouveau !" />
+                </p>
+              <p class="textskills">Team Player</p>
+            </div>
+
           </div>
 
           <div class="col-sm-6">
-            <button type="button" class="btn btn-success" data-toggle="button" aria-pressed="false" autocomplete="off">Hard Skills</button>
+            <button type="button" class="btn btn-success" id="btnhardskills" data-toggle="button" aria-pressed="false" autocomplete="off">Hard Skills</button>
           </div>
 
         </div>

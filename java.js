@@ -1,10 +1,10 @@
 $(document).ready(function(){
-	$(".interface1").hide();
+	$(".teamskills").hide();
 	$(".interface2").hide();
 	$(".interface3").hide();
 
-	$(".tab0").click(function(){
-		$(".interface1").hide();
+	$("#btnhardskills").click(function(){
+		$(".teamskills").show();
 		$(".interface2").hide();
 		$(".interface3").hide();
 	});
