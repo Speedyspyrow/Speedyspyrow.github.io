@@ -144,7 +144,7 @@ h2{
 	height: 76px;
 }
 
-#containerskills{
+#containerbuttonskills{
 	margin-top: 50px;
 }
 
@@ -162,22 +162,24 @@ h2{
 	font-family: bebas neue;
 }
 
-.teamplayer{
+.teamplayerimage{
 	width: 50px;
 	margin-top: 50px;
 	margin-left: 50px;
 	margin-right: 50px;
 }
 
-.teamplayertext{
-	float: left;
+.teamtext{
 	font-family: bebas neue;
 	font-size: 30px;
+	margin-left: 120px;
+	margin-top: 60px;
 }
 
-.textskills{
-	line-height: 160px;
-}
+
+
+
+
 
 
 /*Espace languages*/

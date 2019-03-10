@@ -1,30 +1,21 @@
 $(document).ready(function(){
 	$(".teamskills").hide();
-	$(".interface2").hide();
+	$(".empathic").hide();
+	$(".interface3").hide();
 	$(".interface3").hide();
 
-	$("#btnhardskills").click(function(){
+	$("#btnsoftskills").click(function(){
 		$(".teamskills").show();
-		$(".interface2").hide();
-		$(".interface3").hide();
-	});
-
-	$(".tab1").click(function(){
-		$(".interface1").show();
-		$(".interface2").hide();
-		$(".interface3").hide();
-	});
-
-	$(".tab2").click(function(){
-		$(".interface1").hide();
-		$(".interface2").show();
-		$(".interface3").hide();
-	});
-
-	$(".tab3").click(function(){
-		$(".interface1").hide();
-		$(".interface2").hide();
+		$(".empathic").show();
 		$(".interface3").show();
+		$(".interface3").show();
+	});
+
+	$("#btnhardskills").click(function(){
+		$(".teamskills").hide();
+		$(".empathic").hide();
+		$(".interface3").hide();
+		$(".interface3").hide();
 	});
 
 });
