@@ -1,21 +1,15 @@
 $(document).ready(function(){
-	$(".teamskills").hide();
-	$(".empathic").hide();
-	$(".interface3").hide();
-	$(".interface3").hide();
+	$(".softskills").hide();
+	$(".hardskills").hide();
 
 	$("#btnsoftskills").click(function(){
-		$(".teamskills").show();
-		$(".empathic").show();
-		$(".interface3").show();
-		$(".interface3").show();
+		$(".softskills").show();
+		$(".hardskills").hide();
 	});
 
 	$("#btnhardskills").click(function(){
-		$(".teamskills").hide();
-		$(".empathic").hide();
-		$(".interface3").hide();
-		$(".interface3").hide();
+		$(".softskills").hide();
+		$(".hardskills").show();
 	});
 
 });

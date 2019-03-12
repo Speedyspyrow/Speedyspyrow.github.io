@@ -162,21 +162,21 @@ h2{
 	font-family: bebas neue;
 }
 
-.teamplayerimage{
-	width: 50px;
+.softskills{
+	width: 200px;
 	margin-top: 50px;
-	margin-left: 50px;
-	margin-right: 50px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
-.teamtext{
-	font-family: bebas neue;
-	font-size: 30px;
-	margin-left: 120px;
-	margin-top: 60px;
+.hardskills{
+	width: 200px;
+	margin-top: 50px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
-
-
 
 
 
@@ -306,6 +306,7 @@ h5{
 	display: block;
 	margin-right: auto;
 	margin-left: auto;
+	border-radius: 2%;
 }
 
 .footer {
