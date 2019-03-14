@@ -5,10 +5,6 @@
 	background-color: #e3f2fd;
 }
 
-.navbar-nav {
-	margin-left: 5%;
-}
-
 .home-white {
 	filter: drop-shadow(2px 2px 1px grey);
 	width:35px;
@@ -131,10 +127,6 @@ h2{
 	height: auto;
 }
 
-.card-body{
-	text-align: center;
-}
-
 /*Espace formation*/
 
 #spacebeforeformation{
@@ -203,12 +195,9 @@ h2{
 
  }
 
- .card{
- 	text-decoration: none;
- }
 
  #accordion{
- 	width: 190px;
+ 	width: 250px;
  	margin-right: auto;
  	margin-left: auto;
  }
@@ -231,6 +220,12 @@ h2{
 	margin-top: 50px;
 }
 
+.card-body-language{
+	text-align: center;
+	font-size: 35px;
+	font-family: bebas neue;
+}
+
 #cardheaderfrench{
 	background-image: url("images/French flag.png");
 	-webkit-background-size: cover;
@@ -238,15 +233,15 @@ h2{
     -o-background-size: cover;
     background-size: cover;
     filter: opacity(90%);
+    height: 150px;
 }
 
 #cardheaderenglish{
 	background-image: url("images/English flag.png");
-	-webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
     filter: opacity(90%);
+    height: 150px;
+    width: 250px;
 }
 
 #cardheaderspanish{
@@ -256,6 +251,7 @@ h2{
     -o-background-size: cover;
     background-size: cover;
     filter: opacity(90%);
+    height: 150px;
 }
 
 #cardheaderromanian{
@@ -265,6 +261,8 @@ h2{
     -o-background-size: cover;
     background-size: cover;
     filter: opacity(90%);
+    height: 150px;
+    width: 250px;
 }
 
 /*Espace hobbies avec carousel*/
@@ -291,6 +289,7 @@ h5{
 	text-shadow: 2px 2px black;
 	font-size: 50px;
 	font-family: bebas neue;
+	margin-top: 30px;
 }
 
 .card-img{
