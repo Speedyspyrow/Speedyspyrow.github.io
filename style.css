@@ -131,6 +131,10 @@ h2{
 	height: auto;
 }
 
+.card-body{
+	text-align: center;
+}
+
 /*Espace formation*/
 
 #spacebeforeformation{
